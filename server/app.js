@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://vermillion-kelpie-47145d.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
